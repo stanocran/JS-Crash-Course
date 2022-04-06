@@ -1,7 +1,7 @@
 // ATTENTION: THIS IS CODE FROM A YOUTUBE CRASH COURSE. IT IS NOT MEANT TO RUN AS A WHOLE, IT IS JUST FOR LEARNING AND RECOLLECTION PURPOSES //
 
 // LOGGING OUTPUT
-alert('Hello World'); // Do not use for debugging. Stops script and only strings
+/*alert('Hello World'); // Do not use for debugging. Stops script and only strings
 console.log('Hello World');
 console.error('This is an error');
 console.warn('This is a warning');
@@ -301,7 +301,7 @@ console.log(document.getElementsByTagName('li'));
 console.log(document.getElementsByClassName('item'));
 
 const items = document.querySelectorAll('.item');
-items.forEach((item) => console.log(item));
+items.forEach((item) => console.log(item)); 
 
 
 // MANIPULATING THE DOM
@@ -331,7 +331,7 @@ btn.addEventListener('click', e => {
 const nameInput = document.querySelector('#name');
 nameInput.addEventListener('input', e => {
   document.querySelector('.container').append(nameInput.value);
-});
+}); */
 
 
 // USER FORM SCRIPT
